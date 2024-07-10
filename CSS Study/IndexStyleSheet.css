@@ -4,8 +4,8 @@ body{
     color: black;
     height: 100vh;
     width: 100vw;
-    /* font-size: 10px; */
-    font-style:normal;
+    border: 2px solid red;
+    margin:0;
 }
 
 .web_title{
@@ -25,12 +25,33 @@ table{
     width: 100%;
     height: 50%;
     padding: 10px;
-    margin-left: 50px;
+    /* margin-left: 50px; */
     background-color: aqua;
     border-top: 2px solid red;
-    border-radius: 25px 100px 50px;
+    border-radius: 25px;
+}
+
+th{
+    border: 1px solid black;
+    border-radius: 25px;
+    width: 10%;
+}
+td{
+    border-left: 1px solid gray;
+    border-right: 1px solid gray;
+    border-bottom: 1px solid gray;
 }
 .z-index{
     position: absolute;
     z-index: -5;
+}
+div{
+    border: 2px solid red;
+
+}
+
+div > h1{
+    width: 50%;
+
+    border: 2px solid green;
 }
