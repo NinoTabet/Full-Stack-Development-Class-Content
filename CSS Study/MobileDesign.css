@@ -1,0 +1,59 @@
+div{
+    height: 50%;
+    /* needs to be percentage */
+}
+
+h1{
+    width: 25%;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    /* setting max width for mobile responsiveness */
+}
+
+@media (max-width:600px){
+    header, div{
+        width: 100%;
+    }
+}
+/* using @media rule */
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px){
+
+    .table-xs{
+        ajksdnfkajsdb
+    }
+
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px){
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px)
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px)
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px)
+
+
+/* If the screen size is 600px wide or less, hide the element */
+@media only screen and (max-width: 600px) {
+    div.example {
+      display: none;
+    }
+  }
+
+/* The web page will have a lightblue background if the orientation is in landscape mode: */
+@media only screen and (orientation: landscape) {
+    body {
+        background-color: lightblue;
+    }
+}
