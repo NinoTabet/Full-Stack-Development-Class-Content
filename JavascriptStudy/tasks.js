@@ -4,11 +4,11 @@
 Create variables to store your name, age, and whether you are a student (boolean).
 Log these variables to the console.
 
-(Easy)Task 3: Objects
+(Easy)Task 2: Objects
 Create an object person with properties: name, age, and address (which is another object with street and city).
 Log the name and street properties to the console.
 
-(Easy) Task 2: Arrays
+(Easy) Task 3: Arrays
 Create an array with the following values: 'apple', 'banana', 'orange', 'grape', 'pear'.
 Log the second and fourth elements of the array to the console.
 Add a new fruit to the end of the array and log the updated array.
@@ -35,10 +35,7 @@ Log "Target not found" if the loop completes without finding the target.
 Create a function called printPattern that takes a single parameter n.
 Use nested loops to print a pattern of stars (*) where each row has an increasing number of stars.
 
-*/
-// ------------------------------------------------------------------------------------------------------------------------------
-// hint
-/*
+
 
 
 *
