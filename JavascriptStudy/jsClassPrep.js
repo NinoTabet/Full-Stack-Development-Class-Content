@@ -1,4 +1,4 @@
-/*
+/* 
     Variables
     Datatypes{number(float/int), string, boolean, null, object}
     console logging
