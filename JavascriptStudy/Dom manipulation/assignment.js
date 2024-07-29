@@ -31,3 +31,7 @@
     the text for these 2 span tags should be red.
 
 */
+
+const initialDiv = document.querySelector('div');
+
+const createdDiv = document.createElement('div');

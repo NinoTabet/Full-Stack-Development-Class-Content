@@ -1,13 +1,6 @@
-const body = document.body;
-
 const div = document.createElement('div');
+const image = document.createElement('img');
 
-div.textContent = 'Hello world';
+image.classList.add('center');
 
-body.append(div);
-
-const h1 = body.querySelector('h1');
-
-h1.style.color = 'red';
-
-h1.style.backgroundColor = 'green';
+div.append(image);

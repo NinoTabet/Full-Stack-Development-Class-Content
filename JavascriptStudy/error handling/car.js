@@ -2,7 +2,9 @@ const car1 = {
     make: 'Toyota',
     model: 'Corolla',
     year: 2020,
-    color: 'Red'
+    color: function(x){
+        console.log("hello world: " + x)
+    }
 };
 
 const car2 = {

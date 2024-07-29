@@ -6,7 +6,7 @@ function main(){
 
     console.log(person.occupation);
 
-    console.log(car1);
+    console.log(car1.color(85));
     console.log(car2);
 
     const localCharacter = createPerson('John Doe', 30, 'Software Developer');
