@@ -6,7 +6,7 @@ body.appendChild(); // MUST append a tag
 body.append('hello');
 body.appendChild('hello', div);
 
-const div = document.createElement('div');
+var div = document.createElement('div');
 
 div.innerText = 'Hello World';
 div.textContent = 'Hello World';
