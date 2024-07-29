@@ -6,6 +6,8 @@ Use nested loops to print a pattern of stars (*) where each row has an increasin
 
 */
 
+var movieArray = [];
+
 function printPattern(n){
     for(let i=1; i<=n; i++){
         let stars = '';
@@ -14,6 +16,13 @@ function printPattern(n){
         }
         console.log(stars);
     }
+
+    movieArray.push(
+        {
+            name: 0,
+            whatever:0,
+            whateverelse: movie,
+        })
 }
 
 printPattern(5);
