@@ -3,7 +3,7 @@
 Main task:
 
     Add at least 4 mouse listeners to your travel website.
-    Add at lest 1 keyboard listener to your travel website.
+    Add at least 1 keyboard listener to your travel website.
 
     Example mouse listener: 
 
