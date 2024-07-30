@@ -5,6 +5,8 @@
         alert('Button clicked!');
     });
 
+    // this.style vs obj.style
+
     // on double click
     document.getElementById('myParagraph').addEventListener('dblclick', function() {
         alert('Paragraph double-clicked!');
@@ -25,14 +27,19 @@
         console.log(`Mouse moved to (${event.clientX}, ${event.clientY})`);
     });
 
-    // on mouse over
-    document.getElementById('myDiv').addEventListener('mouseover', function() {
-        alert('Mouse entered element!');
-    });
-
     // on mouse leaves parent AND children
     document.getElementById('myDiv').addEventListener('mouseout', function() {
         alert('Mouse left element!');
+    });
+
+    // on mouse leaves parent only
+    document.getElementById('myDiv').addEventListener('mouseleave', function() {
+        alert('Mouse left element!');
+    });
+
+     // on mouse over
+     document.getElementById('myDiv').addEventListener('mouseover', function() {
+        alert('Mouse entered element!');
     });
 
     // on mouse enter
@@ -40,13 +47,7 @@
         alert('Mouse entered element!');
     });
 
-
-    // on mouse leaves parent only
-    document.getElementById('myDiv').addEventListener('mouseleave', function() {
-        alert('Mouse left element!');
-    });
-
-
+// ------------------------------------------------------------------------------------------------------------------------------
 
 // Keyboard event listeners
 
@@ -60,3 +61,6 @@
         console.log(`Key released: ${event.key}`);
     });
 
+    document.addEventListener('keypress',function(event){
+        console.log(`Key pressed: ${event.key}`);
+    });
