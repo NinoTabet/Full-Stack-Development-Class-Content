@@ -37,12 +37,12 @@
         alert('Mouse left element!');
     });
 
-     // on mouse over
+     // on mouse over parent AND children
      document.getElementById('myDiv').addEventListener('mouseover', function() {
         alert('Mouse entered element!');
     });
 
-    // on mouse enter
+    // on mouse enter ONLY parent
     document.getElementById('myDiv').addEventListener('mouseenter', function() {
         alert('Mouse entered element!');
     });
