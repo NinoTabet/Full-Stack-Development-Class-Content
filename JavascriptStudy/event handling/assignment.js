@@ -11,7 +11,6 @@ Main task:
     2) On mouse over change the border colour of a div, table, or whatever
     3) On mouse move display it's position in a p tag
 
-
 Bonus task:
 
     Using event listeners and what we discussed in class yesterday, create a mouse trail
