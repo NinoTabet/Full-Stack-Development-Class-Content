@@ -3,8 +3,6 @@ const app = express();
 
 app.use(express.json());
 
-// only 1 time
-
 // get endpoint
 app.get("/Search", async (req, res) => {
     
@@ -29,10 +27,6 @@ const PORT = 3000;
 app.listen(PORT, () => {
   console.log(`Server is running on port ${PORT}`);
 });
-
-
-
-
 
 /*
 
