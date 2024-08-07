@@ -1,0 +1,11 @@
+/*
+
+postman installation
+
+making a post request
+
+making a get request
+
+assignment
+
+*/
