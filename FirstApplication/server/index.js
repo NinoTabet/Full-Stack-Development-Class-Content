@@ -2,13 +2,21 @@ require('dotenv').config();
 const express = require('express');
 const app = express();
 const pool = require('./db');
+const cors = require("cors");
 
 app.use(express.json());
+app.use(cors());
 
 app.get("/search", async (req, res) => {
     try {
         
         const bookTitle = req.query.title;
+
+        console.log(bookTitle);
+
+        if (!bookTitle){
+            return res.status(400).json("null value detected");
+        }
 
         const bookSearch = await pool.query(
             'SELECT * FROM books WHERE title ILIKE ($1)',
@@ -19,7 +27,7 @@ app.get("/search", async (req, res) => {
             return res.status(404).json('Book not found');
         }
 
-        res.json(bookSearch.rows);
+        res.status(200).json(bookSearch.rows);
 
     } catch (err) {
         console.error(err);
