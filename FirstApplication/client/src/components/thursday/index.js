@@ -68,12 +68,12 @@ app.get("/search", async (req, res) => {
 
 });
 
-app.post("/create", async (req, res) => {
+app.get("/create", async (req, res) => {
 
     try {
-    const {name} = req.body;
+    const name = req.body;
 
-    if(name !== 'Alice Johnson'){
+    if(name != 'Alice Johnson'){
         res.status(400).json('Name is incorrect');
     }else{
         res.status(200).json('Name received successfully!');
@@ -89,4 +89,4 @@ app.post("/create", async (req, res) => {
 const PORT = 3000;
 app.listen(PORT, () => {
     console.log(`Server is running on port ${PORT}`);
-});
+});ç
