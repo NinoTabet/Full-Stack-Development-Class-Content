@@ -6,7 +6,8 @@ import Test from './components/monday/test';
 // import NavBar4 from './components/tuesday/assignment/NavBar4'
 // import Header2 from './components/tuesday/assignment/Header2'
 // import Footer3 from './components/tuesday/assignment/Footer3'
-import ApiCalls from './components/wednesday/ApiCalls';
+// import ApiCalls from './components/wednesday/ApiCalls';
+import Parent from './components/thursday/Parent';
 
 
 function App() {
@@ -17,7 +18,8 @@ function App() {
       {/* <NavBar4 /> */}
       {/* <Header2 /> */}
       {/* <Footer3 /> */}
-      <ApiCalls />
+      {/* <ApiCalls /> */}
+      <Parent />
     </div>
   );
 }

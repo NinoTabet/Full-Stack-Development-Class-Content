@@ -11,18 +11,30 @@ const ApiCalls = () => {
     
     const handleGetSubmission = async () => {
 
-        const response = await fetch(url + `/search?title=${inputValue}`,{
+
+        try {
             
-            method: 'GET',
-            headers:{ 'Content-Type': 'application/json' }
+            const response = await fetch(url + `/search?title=${inputValue}`,{
+            
+                method: 'GET',
+                headers:{ 'Content-Type': 'application/json' }
+                    
+            });
+    
+
+            if(response.ok){
                 
-        });
+                const data = await response.json();
+    
+                console.log(data);
+        
+                setApiResponse(data[0].title);
+            }
 
-        const data = await response.json();
-
-        console.log(data);
-
-        setApiResponse(data[0].title);
+        } catch (err) {
+            console.error(err);
+        }
+        
 
         // const author = 'Anthony Tabet'
         // const title = inputValue
