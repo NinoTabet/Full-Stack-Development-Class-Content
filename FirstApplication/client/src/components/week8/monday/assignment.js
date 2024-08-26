@@ -1,8 +1,7 @@
 /*
 
     Create a page with a button on it.
-    If the button is clicked, load a title that says "products".
-    If the button was clicked, also map through the following list of products:
+    If the button is clicked, load a title that says "products" and map through the following list of products:
 
     const products = [
   { id: 1, name: 'Laptop', price: 999, category: 'Electronics' },
@@ -34,6 +33,8 @@
   { id: 27, name: 'Watch', price: 199, category: 'Accessories' },
 ];
 
+
+Each product should be a new card component
 
 
 */
