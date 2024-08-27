@@ -1,9 +1,9 @@
 /*
 
-    Create a page with a button on it.
-    If the button is clicked, load a title that says "products" and map through the following list of products:
+  Create a page with a button on it.
+  If the button is clicked, load a title that says "products" and map through the following list of products:
 
-    const products = [
+  const products = [
   { id: 1, name: 'Laptop', price: 999, category: 'Electronics' },
   { id: 2, name: 'Shirt', price: 29, category: 'Apparel' },
   { id: 3, name: 'Coffee Maker', price: 79, category: 'Home Appliances' },

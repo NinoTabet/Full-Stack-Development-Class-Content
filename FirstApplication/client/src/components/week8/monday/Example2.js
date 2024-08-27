@@ -1,7 +1,7 @@
 const Example2 = (props) =>{
 
     return(
-      <h1>{props.isLoggedIn ? 'Welcome back!' : 'Please sign in.'}</h1>
+      <h1>{props.isLoggedIn ? 'Welcome back!' : ''}</h1>
     )
 
 }

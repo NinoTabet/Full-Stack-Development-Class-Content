@@ -10,7 +10,7 @@ const Mapping3 = () =>{
         { id: 5, name: 'Blender', price: 49, category: 'Home Appliances' },
         { id: 6, name: 'Running Shoes', price: 120, category: 'Apparel' },
         { id: 7, name: 'Headphones', price: 199, category: 'Electronics' },
-      ];     
+      ];
     
 
     return(

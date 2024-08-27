@@ -6,21 +6,26 @@ const Parent = () => {
     const [info, setInfo] = useState('')
 
     const handleSubmission = async() => {
-        const x = 5;
+        try {
+            const x = 5;
 
-        const url = 'http://localhost:3000'
-
-        const response = await fetch(url+`/search?number=${x}`,
-            {
-                method: 'GET',
-                headers:{ 'Content-Type': 'application/json' }
+            const url = 'http://localhost:3000'
+    
+            const response = await fetch(url+`/search?number=${x}`,
+                {
+                    method: 'GET',
+                    headers:{ 'Content-Type': 'application/json' }
+                }
+            );
+    
+            if (response.ok){
+                const data = await response.json();
+                setInfo(data[0]);
             }
-        );
-
-        if (response.ok){
-            const data = await response.json();
-            setInfo(data[0]);
+        } catch (err) {
+            console.error(err);
         }
+
     }
 
     return(
