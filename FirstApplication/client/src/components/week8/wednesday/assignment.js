@@ -1,6 +1,6 @@
 /*
 
-    Build the a frontend based on the following back end and database
+    Build a frontend based on the following back end and database
     Your frontend should have 3 pages that link to 3 different urls ('/getPage' ,'/postPage', '/deletePage')
     Use bootstrap for styling
     Hint: use react router to create your different urls
