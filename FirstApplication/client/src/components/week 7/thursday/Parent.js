@@ -9,11 +9,11 @@ const Parent = () => {
         try {
             const x = 5;
 
-            const url = 'http://localhost:3000'
-    
+            const url = process.env.API_URL
+
             const response = await fetch(url+`/search?number=${x}`,
                 {
-                    method: 'GET',
+                    method: 'POST',
                     headers:{ 'Content-Type': 'application/json' }
                 }
             );
