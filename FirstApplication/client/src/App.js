@@ -18,6 +18,7 @@ import Header2 from './components/week 7/tuesday/assignment/Header2'
 // import ProductLogic from './components/week8/monday/assignment/ProductLogic';
 // import Form from './components/week8/tuesday/Form';
 import PropParent from './components/week 9/PropParent';
+import AxiosRequests from './components/week 10/AxiosRequests';
 
 
 function App() {
@@ -26,8 +27,8 @@ function App() {
       <div className='vh-100 vw-100'>
       {/* <NavBar4 /> */}
         <Routes>
-          <Route path='/' element={<Header2 />} />
-          <Route path='/PropParent' element={<PropParent />}/>
+          <Route path='/' element={<AxiosRequests />} />
+          {/* <Route path='/PropParent' element={<PropParent />}/> */}
         </Routes>
       </div>
     </Router> 
