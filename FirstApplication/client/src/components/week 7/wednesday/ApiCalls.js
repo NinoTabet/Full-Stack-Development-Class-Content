@@ -7,10 +7,9 @@ const ApiCalls = () => {
     const [apiResponse, setApiResponse] = useState('')
 
     // const url = process.env.API_URL;
-    const url = 'http://localhost:3000';
+    const url = process.env.API_URL;
     
     const handleGetSubmission = async () => {
-
 
         try {
             
@@ -20,7 +19,6 @@ const ApiCalls = () => {
                 headers:{ 'Content-Type': 'application/json' }
                     
             });
-    
 
             if(response.ok){
                 
@@ -45,7 +43,7 @@ const ApiCalls = () => {
         
         //     method: 'POST',
         //     headers:{ 'Content-Type': 'application/json' },
-        //     body: JSON.stringify(body)
+        //     body: JSON.stringify({body})
             
         // });
 

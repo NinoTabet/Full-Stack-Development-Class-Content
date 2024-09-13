@@ -28,8 +28,8 @@ const c = false; // boolean false
 const d = true; // boolean true
 const e = null; // null value
 // object
-let object = {
-    name: 'Anthony',
+let data = { //response.data.fact
+    fact: 'cats have 9 lives',
     age: 25,
     isTeacher: true,
     address: {

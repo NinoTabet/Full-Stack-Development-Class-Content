@@ -1,6 +1,9 @@
 import React from "react";
 
 const Test = () => {
+
+    const x = 5;
+
     return(
         <div className="h-100 w-100 d-flex justify-content-center align-items-center bg-dark text-light">
             <div className="text-center">

@@ -24,7 +24,7 @@
 
     OR
 
-    LIKE - WHERE name LIKE 'John'; -
+    ILIKE - WHERE name ILIKE 'John'; - 
 
     Wildcards: % and _ (underscore, not a dash) 
 

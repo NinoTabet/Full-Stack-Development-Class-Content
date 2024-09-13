@@ -4,7 +4,7 @@ import {BrowserRouter as Router, Routes, Route, Link} from 'react-router-dom';
 // import Test from './components/monday/test';
 // import Home from './week7/components/tuesday/props/Home';
 // import Home from './week7/components/tuesday/onClickEvents/Home';
-// import Home from './week7/components/tuesday/useState/Home';
+import Home from './components/week 7/tuesday/useState/Home';
 // import NavBar4 from './week7/components/tuesday/assignment/NavBar4'
 import Header2 from './components/week 7/tuesday/assignment/Header2'
 // import Footer3 from './week7/components/tuesday/assignment/Footer3'
@@ -25,11 +25,13 @@ function App() {
   return (
     <Router>
       <div className='vh-100 vw-100'>
-      {/* <NavBar4 /> */}
+      <NavBar4 />
         <Routes>
-          <Route path='/' element={<AxiosRequests />} />
+          <Route path='/' element={<Home />} />
+          {/* <Route path='/' element={<AxiosRequests />} /> */}
           {/* <Route path='/PropParent' element={<PropParent />}/> */}
         </Routes>
+        <Footer />
       </div>
     </Router> 
   );

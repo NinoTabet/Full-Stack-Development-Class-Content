@@ -44,8 +44,7 @@ const add1 = function(a, b) {
     return a + b;
 };
 
-const add2 = (a, b) => a + b;
-
+const add2 = (a, b) => {a + b};
 
 // promises
 async function fetchData() {
